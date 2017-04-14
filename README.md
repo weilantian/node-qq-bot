@@ -3,7 +3,7 @@
 
 其实这是一个客户端框架，与[Mojo-Webqq](https://github.com/sjdy521/Mojo-Webqq)搭配使用（没听说过的话建议先去看看）
 
-首先你需要写一个Perl脚本(https://github.com/sjdy521/Mojo-Webqq)
+首先你需要写一个Perl脚本
 
 ```
 #!/usr/bin/env perl
@@ -19,7 +19,7 @@
  $client->load("Openqq",data=>{listen=>[{host=>$host,port=>$port}], post_api=>$post_api, post_event_list => ['login','stop','state_change','input_qrcode','new_group','new_friend','new_group_member','lose_group','lose_friend','lose_group_member']});
  $client->run();
 ```
-。。。不会也没关系，具体参照[Mojo-Webqq]
+。。。不会也没关系，具体参照[Mojo-Webqq](https://github.com/sjdy521/Mojo-Webqq)
 
 ---
 
